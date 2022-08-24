@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div>
+            <fieldset>
+                <br>
+            <legend>Calculadora - Soma</legend>
+
+            <div>
+                <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' name="numero1" id="numero1">
+                <label for="numero1" class="labelInput"><i class="fa-solid fa-user-graduate"></i> Digite seu primeiro numero </label>
+            </div>
+
+            <div>
+                <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' name="numero2" id="numero2">
+                <label for="numero2" class="labelInput"><i class="fa-solid fa-user-graduate"></i> Digite seu segundo numero </label> 
+                <button onclick="soma()">enviar</button>
+            </div>
+
+            <br>
+            </fieldset>
+
+        <div id="resultado">
+
+        </div>
+    </div>
+
+    <script src="Exercicio2.js"></script>
+
+</body>
+</html>
